@@ -1,0 +1,48 @@
+[slac-rhel-7-server-extras-rpms]
+name=SLAC Red Hat Enterprise Linux 7 Server - Extras
+baseurl=http://yum.slac.stanford.edu/mrepo/rhel-7-server/rhel-7-server-extras-rpms
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+enabled=1
+gpgcheck=1
+
+[slac-rhel-7-server-optional-rpms]
+name=SLAC Red Hat Enterprise Linux 7 Server - Optional
+baseurl=http://yum.slac.stanford.edu/mrepo/rhel-7-server/rhel-7-server-optional-rpms
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+enabled=1
+gpgcheck=1
+
+[slac-rhel-7-server-rh-common-rpms]
+name=SLAC Red Hat Enterprise Linux 7 Server - RH Common
+baseurl=http://yum.slac.stanford.edu/mrepo/rhel-7-server/rhel-7-server-rh-common-rpms
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+enabled=1
+gpgcheck=1
+
+[slac-rhel-7-server-rpms]
+name=SLAC Red Hat Enterprise Linux 7 Server
+baseurl=http://yum.slac.stanford.edu/mrepo/rhel-7-server/rhel-7-server-rpms
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+enabled=1
+gpgcheck=1
+
+[slac-rhel-7-server-supplementary-rpms]
+name=SLAC Red Hat Enterprise Linux 7 Server - Supplementary
+baseurl=http://yum.slac.stanford.edu/mrepo/rhel-7-server/rhel-7-server-supplementary-rpms
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+enabled=1
+gpgcheck=1
+
+[slac-rhel-7-server-thirdparty-oracle-java-rpms]
+name=SLAC Red Hat Enterprise Linux 7 Server - Oracle Java
+baseurl=http://yum.slac.stanford.edu/mrepo/rhel-7-server/rhel-7-server-thirdparty-oracle-java-rpms
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+enabled=1
+gpgcheck=1
+
+[slac-rhel-server-rhscl-7-rpms]
+name=SLAC Red Hat Software Collections RPMs for Red Hat Enterprise Linux 7 Server
+baseurl=http://yum.slac.stanford.edu/mrepo/rhel-7-server/rhel-server-rhscl-7-rpms
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+enabled=1
+gpgcheck=1
